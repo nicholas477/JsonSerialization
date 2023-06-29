@@ -1,5 +1,7 @@
-# JsonSerialization
-This plugin adds support for serializing UObjects to json. It supports nested objects, arrays, structs, etc.
+# Json Serialization Plugin
+This plugin adds support for serializing UObjects to json. It supports nested objects, arrays, structs, etc. It serializes all non-transient properties, and it does not serialize cyclical references.
+
+## How to use
 
 It comes with one function:
 
