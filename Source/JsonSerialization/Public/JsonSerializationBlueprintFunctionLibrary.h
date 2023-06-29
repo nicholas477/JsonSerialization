@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "JsonObjectWrapper.h"
 #include "JsonSerializationBlueprintFunctionLibrary.generated.h"
 
 /**
@@ -16,5 +17,5 @@ class JSONSERIALIZATION_API UJsonSerializationBlueprintFunctionLibrary : public 
 
 public:
 	UFUNCTION(BlueprintPure, Category = "Json Serialization")
-		static struct FJsonObjectWrapper ObjectToJson(const UObject* Object);
+		static FJsonObjectWrapper ObjectToJson(const UObject* Object);
 };

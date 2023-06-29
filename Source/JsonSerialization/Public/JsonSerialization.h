@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Dom/JsonObject.h"
 #include "Modules/ModuleManager.h"
 
 class JSONSERIALIZATION_API FJsonSerializationModule : public IModuleInterface
