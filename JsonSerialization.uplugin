@@ -3,7 +3,7 @@
 	"Version": 2,
 	"VersionName": "1.1",
 	"FriendlyName": "Json Serialization",
-	"Description": "",
+	"Description": "Adds a function Object to Json that converts any UObject into Json",
 	"Category": "Serialization",
 	"CreatedBy": "EPICGameGuy",
 	"CreatedByURL": "https://github.com/nicholas477",
