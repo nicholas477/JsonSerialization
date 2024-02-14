@@ -23,7 +23,8 @@ public class JsonSerialization : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"SlateCore"
+				"SlateCore",
+				"StructUtils"
 			}
 		);
 	}

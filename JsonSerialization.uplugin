@@ -1,13 +1,13 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0",
+	"Version": 2,
+	"VersionName": "1.1",
 	"FriendlyName": "Json Serialization",
 	"Description": "",
 	"Category": "Serialization",
-	"CreatedBy": "",
-	"CreatedByURL": "",
-	"DocsURL": "",
+	"CreatedBy": "EPICGameGuy",
+	"CreatedByURL": "https://github.com/nicholas477",
+	"DocsURL": "https://github.com/nicholas477/JsonSerialization",
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"CanContainContent": false,
@@ -18,7 +18,16 @@
 		{
 			"Name": "JsonSerialization",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"StructUtils"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "StructUtils",
+			"Enabled": true
 		}
 	]
 }
